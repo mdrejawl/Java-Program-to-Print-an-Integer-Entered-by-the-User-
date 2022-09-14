@@ -1,0 +1,24 @@
+public class Calculator { int a,b;
+
+public int addition(int a, int b){ return a+b;
+}
+public int subtraction(int a, int b){ return a-b;
+}
+public int Multiplication(int a, int b){ return a*b;
+}
+public int division(int a, int b){ return a/b;
+}
+
+public static void main(String[] args){ Calculator obj = new Calculator(); obj.a = 10;
+obj.b = 5;
+
+System.out.println("Summation of the integers is "+ obj.addition(obj.a, obj.b));
+
+System.out.println("Summation of the integers is "+ obj.subtraction(obj.a, obj.b));
+
+System.out.println("Summation of the integers is "+ obj.Multiplication(obj.a, obj.b));
+
+System.out.println("Summation of the integers is "+ obj.division(obj.a, obj.b));
+
+}
+}
